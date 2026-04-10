@@ -35,7 +35,9 @@ llama-index-embeddings-huggingface
 llama-index-embeddings-openai
 sentence-transformers==3.2.0
 pgvector
-numpy
+numpy==1.26.4
+pandas==2.2.3
+openai-whisper==20250625
 
 # Document Processing
 # Using LangChain Community loaders instead of direct libraries

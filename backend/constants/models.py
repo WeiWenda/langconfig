@@ -13,6 +13,7 @@ from enum import Enum
 class ModelChoice(str, Enum):
     """Available AI models - Updated December 16, 2025"""
 
+    QWEN_3_6_PLUS = 'qwen3.6-plus'
     # OpenAI - GPT-5 Series (Current)
     GPT_5_2 = "gpt-5.2"  # Latest flagship model
     GPT_5_1 = "gpt-5.1"
@@ -34,4 +35,4 @@ class ModelChoice(str, Enum):
 
 
 # Default model
-DEFAULT_MODEL = ModelChoice.GPT_4O
+DEFAULT_MODEL = ModelChoice.QWEN_3_6_PLUS

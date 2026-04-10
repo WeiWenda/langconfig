@@ -82,6 +82,7 @@ export function useAvailableModels(
       // Model display name mapping (public-facing names)
       // Updated December 16, 2025
       const modelDisplayNames: Record<string, { name: string; provider: string }> = {
+        'qwen3.6-plus': {name: 'Qwen3.6-plus', provider: 'OpenAI'},
         // OpenAI - GPT-5 Series (Current)
         'gpt-5.2': { name: 'GPT-5.2', provider: 'OpenAI' },
         'gpt-5.1': { name: 'GPT-5.1', provider: 'OpenAI' },

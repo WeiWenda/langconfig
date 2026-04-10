@@ -1147,7 +1147,7 @@ You have been equipped with the following tools: {', '.join(tool_names)}
         streaming = config.get("streaming", True)  # Enable by default for SSE streaming
 
         # --- OpenAI/GPT Models ---
-        if model_name.startswith("gpt"):
+        if model_name.startswith("gpt") or model_name.startswith("qwen"):
             if not settings.OPENAI_API_KEY:
                 raise ValueError(f"OPENAI_API_KEY is required for model {model_name}")
 
